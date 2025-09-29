@@ -1,4 +1,15 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.capitalmesh.net'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'CapitalMesh'
 theme = "bootstrap"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Join"
+    url = "/join/"
+    weight = 2

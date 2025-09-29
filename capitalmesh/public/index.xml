@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Welcome to CapitalMesh on CapitalMesh</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content in Welcome to CapitalMesh on CapitalMesh</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Sep 2025 17:54:36 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Join</title>
-      <link>http://localhost:1313/join/</link>
-      <pubDate>Mon, 29 Sep 2025 17:54:36 -0400</pubDate>
-      <guid>http://localhost:1313/join/</guid>
-      <description></description>
+      <title>About CapitalMesh</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;CapitalMesh is a non-commercial initiative focused on empowering local communities through decentralized connectivity.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We believe in open-source collaboration, low-maintenance infrastructure, and community resilience. This project is built by and for the people of the Capital Region — with no ads, no monetization, and no gatekeeping.&lt;/p&gt;&#xA;&lt;p&gt;This site is still under construction. More details coming soon.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 29 Sep 2025 17:54:27 -0400</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description></description>
+      <title>Join the Mesh</title>
+      <link>http://localhost:1313/join/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/join/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Want to help build a stronger, more connected Capital Region?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;re working on guides for setting up nodes, contributing to the project, and spreading the word. Whether you&amp;rsquo;re technical or just curious, there&amp;rsquo;s a place for you here.&lt;/p&gt;&#xA;&lt;p&gt;This page is a placeholder — check back soon for setup instructions and collaboration tools.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
