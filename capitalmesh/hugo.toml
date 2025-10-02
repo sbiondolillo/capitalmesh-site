@@ -1,15 +1,25 @@
 baseURL = 'https://www.capitalmesh.net'
 languageCode = 'en-us'
-title = 'CapitalMesh'
+title = 'Capital Region Mesh'
 theme = "bootstrap"
 
 [menu]
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Mission"
+    url = "/mission/"
     weight = 1
 
   [[menu.main]]
     name = "Join"
     url = "/join/"
     weight = 2
+
+  [[menu.main]]
+    name = "Contribute"
+    url = "/contribute/"
+    weight = 3
+
+  [[menu.main]]
+    name = "What is Meshtastic?"
+    url = "/what-is-meshtastic/"
+    weight = 4
