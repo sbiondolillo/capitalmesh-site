@@ -20,4 +20,8 @@ We’re working on:
 - Local channel info and etiquette
 - Collaboration tools and contribution pathways
 
-If you're ready to dive in or just want to learn more, explore our [contribute page](../contribute/).
+## 📬 Stay in the Loop
+
+Want updates, guides, and community news delivered directly?  
+**Email us at [info@capitalmesh.net](mailto:info@capitalmesh.net)** or **join our newsletter** (coming soon) to stay connected as the mesh grows.
+
