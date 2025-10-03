@@ -1,6 +1,5 @@
 ---
 title: "How Can I Contribute?"
-type: "page"
 ---
 
 Capital Region Mesh is powered by volunteers, neighbors, and curious minds. Whether you're technical or not, there are many ways to help grow and strengthen the mesh.

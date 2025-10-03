@@ -1,6 +1,6 @@
 ---
 title: "Welcome to Capital Region Mesh"
-type: "page"
+layout: "home"
 ---
 
 **A community-driven mesh network for the Capital Region of New Hampshire.**

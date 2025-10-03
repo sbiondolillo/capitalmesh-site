@@ -1,6 +1,5 @@
 ---
 title: "What is Capital Region Mesh?"
-type: "page"
 ---
 
 We are a non-commercial initiative focused on empowering local communities through decentralized connectivity. We use Meshtastic and LoRa technology to build off-grid mesh networks that prioritize resilience, privacy, and local autonomy.

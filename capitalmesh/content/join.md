@@ -1,6 +1,5 @@
 ---
 title: "How Do I Join?"
-type: "page"
 ---
 
 Want to help build a stronger, more connected Capital Region?
