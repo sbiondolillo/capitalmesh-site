@@ -22,6 +22,27 @@ We’re working on:
 
 ## 📬 Stay in the Loop
 
-Want updates, guides, and community news delivered directly?  
-**Email us at [info@capitalmesh.net](mailto:info@capitalmesh.net)** or **join our newsletter** (coming soon) to stay connected as the mesh grows.
+Want updates, guides, and community news delivered directly?
+
+<form action="https://buttondown.email/api/emails/embed-subscribe/capitalmesh" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/capitalmesh', 'popupwindow')">
+<fieldset style="border: none; padding: 0; margin: 0;">
+<legend style="font-weight: bold; margin-bottom: 0.5em;">Subscribe to our newsletter and be the first to hear about new tools, local activity, and ways to contribute.</legend>
+
+<input
+    type="email"
+    name="email"
+    id="bd-email"
+    placeholder="you@example.com"
+    required
+    style="width: 100%; padding: 0.5em; border: 1px solid var(--border, #ccc); border-radius: 4px; margin-bottom: 0.05em;">
+
+<input
+    type="submit"
+    value="Sign me up!"
+    style="padding: 0.5em 1em; background-color: #3399ff; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">
+
+</fieldset>
+</form>
+
+Prefer direct contact? Email us at [info@capitalmesh.net](mailto:info@capitalmesh.net).
 
