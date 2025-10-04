@@ -58,9 +58,9 @@
       <link>https://www.capitalmesh.net/what-is-the-mesh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.capitalmesh.net/what-is-the-mesh/</guid>
-      <description>&lt;p&gt;Meshtastic is an open-source, long-range mesh communication system that uses inexpensive LoRa radios to connect people without relying on cellular or internet infrastructure.&lt;/p&gt;
-&lt;p&gt;It’s designed for off-grid messaging, emergency preparedness, outdoor adventures, and community resilience. By forming a decentralized mesh network, Meshtastic devices relay messages across multiple nodes — extending coverage far beyond the range of a single device.&lt;/p&gt;
-&lt;p&gt;Whether you&amp;rsquo;re hiking in remote areas, preparing for natural disasters, or building local networks for community empowerment, Meshtastic offers a flexible and privacy-respecting way to stay connected.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The mesh is a community-powered communication system that uses inexpensive &lt;a href=&#34;https://en.wikipedia.org/wiki/LoRa&#34;&gt;&lt;strong&gt;LoRa&lt;/strong&gt;&lt;/a&gt; radios to connect people without relying on cell towers or internet access.&lt;/p&gt;
+&lt;p&gt;Several open-source applications can run on this LoRa-based mesh — but &lt;a href=&#34;https://meshtastic.org/&#34;&gt;&lt;strong&gt;Meshtastic&lt;/strong&gt;&lt;/a&gt; currently has the widest adoption and most active community, making it the easiest way to get started.&lt;/p&gt;
+&lt;p&gt;It’s designed for off-grid messaging, emergency preparedness, outdoor adventures, and community resilience. By forming a decentralized mesh network, devices relay messages across multiple nodes — extending coverage far beyond the range of a single device.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

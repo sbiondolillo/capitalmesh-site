@@ -22,9 +22,9 @@ path = "github.com/adityatelange/hugo-PaperMod"
 
 [menu]
   [[menu.main]]
-    name = "Mission"
-    url = "/mission/"
-    weight = 4
+    name = "What is the Mesh?"
+    url = "/what-is-the mesh/"
+    weight = 1
 
   [[menu.main]]
     name = "Join"
@@ -37,6 +37,6 @@ path = "github.com/adityatelange/hugo-PaperMod"
     weight = 3
 
   [[menu.main]]
-    name = "What is the Mesh?"
-    url = "/what-is-the mesh/"
-    weight = 1
+    name = "Mission"
+    url = "/mission/"
+    weight = 4
