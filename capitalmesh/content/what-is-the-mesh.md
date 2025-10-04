@@ -45,6 +45,8 @@ LoRa’s strength lies in its ability to punch through obstacles and cover long 
 
 At the heart of LoRa is [**Chirp Spread Spectrum (CSS)**](https://en.wikipedia.org/wiki/Chirp_spread_spectrum) — a modulation method where signals sweep across a range of frequencies (called chirps) to encode data. Think of chirps like sonar pings — sweeping signals that carry data by changing frequency over time. CSS is highly resistant to interference and enables reliable communication at low signal-to-noise ratios. This is what allows LoRa devices to maintain long-range links using minimal power, even in crowded or obstructed environments.
 
+Want to learn more about Chirp Spread Spectrum? [Read the deep dive →](/blog/chirp-spread-spectrum/)
+
 ### 🔗 Meshtastic: A Popular Mesh Implementation
 
 [**Meshtastic**](https://meshtastic.org/) takes LoRa and adds a mesh networking layer on top. Instead of each device talking directly to a central hub, nodes relay messages to each other — hopping across the network until the message reaches its destination.

@@ -9,16 +9,21 @@ path = "github.com/adityatelange/hugo-PaperMod"
 [params]
   env = "production"
   defaultTheme = "auto"
-  ShowReadingTime = false
+  ShowReadingTime = true
   ShowShareButtons = true
   ShowBreadCrumbs = false
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
+  mainSections = []
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
 
 [menu]
   [[menu.main]]
@@ -40,3 +45,9 @@ path = "github.com/adityatelange/hugo-PaperMod"
     name = "Mission"
     url = "/mission/"
     weight = 4
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 50
+

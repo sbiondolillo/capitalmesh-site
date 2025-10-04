@@ -6,6 +6,28 @@
     <description>Recent content in Tags on Capital Region Mesh</description>
     <generator>Hugo -- 0.150.1</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.capitalmesh.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LoRa</title>
+      <link>https://www.capitalmesh.net/tags/lora/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.capitalmesh.net/tags/lora/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modulation</title>
+      <link>https://www.capitalmesh.net/tags/modulation/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.capitalmesh.net/tags/modulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spectrum</title>
+      <link>https://www.capitalmesh.net/tags/spectrum/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.capitalmesh.net/tags/spectrum/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
