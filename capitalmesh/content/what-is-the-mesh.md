@@ -1,5 +1,5 @@
 ---
-title: "What is Meshtastic?"
+title: "What is the Mesh?"
 ---
 
 Meshtastic is an open-source, long-range mesh communication system that uses inexpensive LoRa radios to connect people without relying on cellular or internet infrastructure.

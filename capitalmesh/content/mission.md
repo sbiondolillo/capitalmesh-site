@@ -1,10 +1,6 @@
 ---
-title: "What is Capital Region Mesh?"
+title: "Our Mission"
 ---
-
-We are a non-commercial initiative focused on empowering local communities through decentralized connectivity. We use Meshtastic and LoRa technology to build off-grid mesh networks that prioritize resilience, privacy, and local autonomy.
-
-## Our Mission
 
 We aim to foster community-owned communication networks that thrive without centralized control. This means:
 
@@ -18,4 +14,4 @@ Traditional infrastructure is fragile. CapitalMesh offers an alternative — one
 
 ## Built by the Capital Region
 
-This project is built by and for the people of the Capital Region — with no ads, no monetization, and no gatekeeping. It’s a living experiment in community resilience.
+This project is built by and for the people of the Capital Region — with no ads and no monetization. It’s a living experiment in community resilience.

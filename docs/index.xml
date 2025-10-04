@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Welcome to Capital Region Mesh on Capital Region Mesh</title>
+    <title>Capital Region Mesh</title>
     <link>https://www.capitalmesh.net/</link>
-    <description>Recent content in Welcome to Capital Region Mesh on Capital Region Mesh</description>
+    <description>Recent content on Capital Region Mesh</description>
     <generator>Hugo -- 0.150.1</generator>
     <language>en-us</language>
     <atom:link href="https://www.capitalmesh.net/index.xml" rel="self" type="application/rss+xml" />
@@ -38,26 +38,26 @@
 &lt;p&gt;We’re working on:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>What is Capital Region Mesh?</title>
+      <title>Our Mission</title>
       <link>https://www.capitalmesh.net/mission/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.capitalmesh.net/mission/</guid>
-      <description>&lt;p&gt;We are a non-commercial initiative focused on empowering local communities through decentralized connectivity. We use Meshtastic and LoRa technology to build off-grid mesh networks that prioritize resilience, privacy, and local autonomy.&lt;/p&gt;
-&lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;
-&lt;p&gt;We aim to foster community-owned communication networks that thrive without centralized control. This means:&lt;/p&gt;
+      <description>&lt;p&gt;We aim to foster community-owned communication networks that thrive without centralized control. This means:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Connectivity without gatekeepers&lt;/li&gt;
 &lt;li&gt;Open-source tools and transparent practices&lt;/li&gt;
 &lt;li&gt;Participation for everyone, regardless of technical background&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;why-it-matters&#34;&gt;Why It Matters&lt;/h2&gt;
-&lt;p&gt;Traditional infrastructure is fragile. CapitalMesh offers an alternative — one that works during outages, in remote areas, and for people who value independence. It’s about trust, empowerment, and connection.&lt;/p&gt;</description>
+&lt;p&gt;Traditional infrastructure is fragile. CapitalMesh offers an alternative — one that works during outages, in remote areas, and for people who value independence. It’s about trust, empowerment, and connection.&lt;/p&gt;
+&lt;h2 id=&#34;built-by-the-capital-region&#34;&gt;Built by the Capital Region&lt;/h2&gt;
+&lt;p&gt;This project is built by and for the people of the Capital Region — with no ads and no monetization. It’s a living experiment in community resilience.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>What is Meshtastic?</title>
-      <link>https://www.capitalmesh.net/what-is-meshtastic/</link>
+      <title>What is the Mesh?</title>
+      <link>https://www.capitalmesh.net/what-is-the-mesh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.capitalmesh.net/what-is-meshtastic/</guid>
+      <guid>https://www.capitalmesh.net/what-is-the-mesh/</guid>
       <description>&lt;p&gt;Meshtastic is an open-source, long-range mesh communication system that uses inexpensive LoRa radios to connect people without relying on cellular or internet infrastructure.&lt;/p&gt;
 &lt;p&gt;It’s designed for off-grid messaging, emergency preparedness, outdoor adventures, and community resilience. By forming a decentralized mesh network, Meshtastic devices relay messages across multiple nodes — extending coverage far beyond the range of a single device.&lt;/p&gt;
 &lt;p&gt;Whether you&amp;rsquo;re hiking in remote areas, preparing for natural disasters, or building local networks for community empowerment, Meshtastic offers a flexible and privacy-respecting way to stay connected.&lt;/p&gt;</description>

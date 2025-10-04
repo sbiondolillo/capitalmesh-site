@@ -10,16 +10,21 @@ path = "github.com/adityatelange/hugo-PaperMod"
   env = "production"
   defaultTheme = "auto"
   ShowReadingTime = false
-  ShowShareButtons = false
+  ShowShareButtons = true
   ShowBreadCrumbs = false
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [menu]
   [[menu.main]]
     name = "Mission"
     url = "/mission/"
-    weight = 1
+    weight = 4
 
   [[menu.main]]
     name = "Join"
@@ -32,6 +37,6 @@ path = "github.com/adityatelange/hugo-PaperMod"
     weight = 3
 
   [[menu.main]]
-    name = "What is Meshtastic?"
-    url = "/what-is-meshtastic/"
-    weight = 4
+    name = "What is the Mesh?"
+    url = "/what-is-the mesh/"
+    weight = 1
