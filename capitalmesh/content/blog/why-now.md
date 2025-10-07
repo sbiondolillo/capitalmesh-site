@@ -88,3 +88,23 @@ Every institution meant to protect us is faltering. The guardrails are gone. But
 The mesh is growing. The work is underway. There’s a place for you in it — come build with us.
 
 This is only the beginning.
+
+---
+
+<legend style="font-weight: bold; margin-bottom: 0.5em;">This post originally appeared as the first issue of the Capital Region Mesh newsletter. Want future updates in your inbox?</legend>
+
+<input
+    type="email"
+    name="email"
+    id="bd-email"
+    placeholder="you@example.com"
+    required
+    style="width: 100%; padding: 0.5em; border: 1px solid var(--border, #ccc); border-radius: 4px; margin-bottom: 0.05em;">
+
+<input
+    type="submit"
+    value="Sign me up!"
+    style="padding: 0.5em 1em; background-color: #3399ff; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">
+
+</fieldset>
+</form>
