@@ -11,9 +11,7 @@ Want to help build a stronger, more connected Capital Region?
 
 Join the mesh with a Meshtastic-compatible LoRa device. This guide assumes you're using the Meshtastic mobile app with a node that comes pre-flashed. For custom setups or flashing instructions, visit the official [getting started guide](https://meshtastic.org/docs/getting-started/).  
 
-[Explore recommended devices →](/blog/tags/devices) *(coming soon)*
-
-- 🛒 Get a node: any compatible device works—recommended models make setup easier  
+- 🛒 Get a node: any compatible device works—[recommended models](https://your-site.com/blog/tags/devices) make setup easier *(coming soon)*  
 - 📱 Install the Meshtastic app on your phone:  
   {{< ico bootstrap apple >}} [Apple App Store](https://apps.apple.com/app/meshtastic/id6477066333)  
   {{< ico bootstrap google-play >}} [Google Play Store](https://play.google.com/store/apps/details?id=org.meshtastic.meshtastic) 
