@@ -1,2 +1,6 @@
 github.com/adityatelange/hugo-PaperMod v0.0.0-20250928140428-6e10faefc871 h1:CBPCk+fC36ykeMWsA4EqAhivXRQBV2SVSUuUA4MtRhc=
 github.com/adityatelange/hugo-PaperMod v0.0.0-20250928140428-6e10faefc871/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
+github.com/hugomods/icons v0.6.6 h1:gGlafcBDRP7sSID+tgLcWdog+s/QBj8DIfU+h9tZj1U=
+github.com/hugomods/icons v0.6.6/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P31gPNGg=
+github.com/hugomods/icons/vendors/bootstrap v0.5.11 h1:8gZnk0wR1JSC+07L7T1okJiGAva7V1rGnOIQYSsr4/8=
+github.com/hugomods/icons/vendors/bootstrap v0.5.11/go.mod h1:PAN+bzB4MW4dkA2gZbmKRJQ6lskHzoosqZzlCTgPv0k=

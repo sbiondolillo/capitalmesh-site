@@ -4,16 +4,22 @@ title: "How Do I Join?"
 
 Want to help build a stronger, more connected Capital Region?
 
-Capital Region Mesh is an open invitation to anyone curious about decentralized communication. Whether you're technical or just exploring, there's a role for you in the mesh.
 
-## 🧭 Ways to Get Started
+## 🧭 Getting Started Is Easy
 
-- **Set up a node**: Use a Meshtastic-compatible LoRa device to join the network and extend coverage.
-- **Tune in**: Listen to local traffic, learn how messages flow, and get familiar with the mesh.
-- **Connect with others**: Find nearby users, join community channels, or help map the network.
-- **Share your experience**: Document your setup, troubleshoot with others, or help newcomers get started.
+### 1️⃣ Set Up Your Node
 
-### 📡 Join Our Mesh Channel
+Join the mesh with a Meshtastic-compatible LoRa device. This guide assumes you're using the Meshtastic mobile app with a node that comes pre-flashed. For custom setups or flashing instructions, visit the official [getting started guide](https://meshtastic.org/docs/getting-started/).  
+
+[Explore recommended devices →](/blog/tags/devices) *(coming soon)*
+
+- 🛒 Get a node: any compatible device works—recommended models make setup easier  
+- 📱 Install the Meshtastic app on your phone:  
+  {{< ico bootstrap apple >}} [Apple App Store](https://apps.apple.com/app/meshtastic/id6477066333)  
+  {{< ico bootstrap google-play >}} [Google Play Store](https://play.google.com/store/apps/details?id=org.meshtastic.meshtastic) 
+- 🔗 Pair your node to your phone: that’s it—you’re ready to send your first message
+
+### 2️⃣ Join Our Channel
 
 Connect with others in the Capital Region using our shared Meshtastic channel:
 
@@ -25,11 +31,20 @@ Connect with others in the Capital Region using our shared Meshtastic channel:
 
 This channel is open for community coordination, testing, and mesh-powered resilience. Messages are encrypted using a shared key aligned with our local branding.
 
-## 🛠️ Coming Soon
+### 3️⃣ Next Steps
 
-We’re working on:
-- Step-by-step setup guides
-- Local channel info and etiquette
+Once you're connected, you can:
+
+- 🧭 Listen to local traffic and learn how messages flow  
+- 🤝 Connect with nearby users and help map the network  
+- 🛠️ Visit [the Contribute page](/contribute) to find ways to support, build, and shape the mesh
+
+---
+
+## ⏰ Coming Soon
+
+- Step-by-step setup guides  
+- Local channel info and etiquette  
 - Collaboration tools and contribution pathways
 
 ## 📬 Stay in the Loop
@@ -57,4 +72,3 @@ Want updates, guides, and community news delivered directly?
 </form>
 
 Prefer direct contact? Email us at [info@capitalmesh.net](mailto:info@capitalmesh.net).
-
