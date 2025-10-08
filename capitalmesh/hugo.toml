@@ -23,8 +23,10 @@ path = "github.com/adityatelange/hugo-PaperMod"
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
 
+[permalinks]
+  tags = "/blog/tags/:slug/"
+  
 [menu]
   [[menu.main]]
     name = "What is the Mesh?"
