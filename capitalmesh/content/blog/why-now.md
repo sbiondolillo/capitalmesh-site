@@ -91,6 +91,8 @@ This is only the beginning.
 
 ---
 
+<form action="https://buttondown.email/api/emails/embed-subscribe/capitalmesh" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/capitalmesh', 'popupwindow')">
+<fieldset style="border: none; padding: 0; margin: 0;">
 <legend style="font-weight: bold; margin-bottom: 0.5em;">This post originally appeared as the first issue of the Capital Region Mesh newsletter. Want future updates in your inbox?</legend>
 
 <input

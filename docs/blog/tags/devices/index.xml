@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>LoRa on Capital Region Mesh</title>
-    <link>https://www.capitalmesh.net/blog/tags/lora/</link>
-    <description>Recent content in LoRa on Capital Region Mesh</description>
+    <title>Devices on Capital Region Mesh</title>
+    <link>https://www.capitalmesh.net/blog/tags/devices/</link>
+    <description>Recent content in Devices on Capital Region Mesh</description>
     <generator>Hugo -- 0.150.1</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.capitalmesh.net/blog/tags/lora/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.capitalmesh.net/blog/tags/devices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recommended Devices for Beginners</title>
       <link>https://www.capitalmesh.net/blog/recommended-devices/</link>
@@ -68,15 +68,6 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;-choosing-the-right-node&#34;&gt;🔍 Choosing the Right Node&lt;/h2&gt;
 &lt;p&gt;When selecting a device, consider:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Chirp Spread Spectrum Explained</title>
-      <link>https://www.capitalmesh.net/blog/chirp-spread-spectrum/</link>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.capitalmesh.net/blog/chirp-spread-spectrum/</guid>
-      <description>&lt;h2 id=&#34;-what-is-chirp-spread-spectrum&#34;&gt;🌀 What Is Chirp Spread Spectrum?&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Chirp Spread Spectrum (CSS)&lt;/strong&gt; is a wireless modulation technique that encodes data using signals called &lt;em&gt;chirps&lt;/em&gt; — waveforms that sweep across a range of frequencies over time. Think of it like sonar: instead of sending a single tone, a device sends a sweeping signal that changes pitch as it moves. These chirps can be increasing (up-chirp) or decreasing (down-chirp) in frequency.&lt;/p&gt;
-&lt;p&gt;This sweeping behavior makes CSS highly resistant to interference and noise. Even if parts of the signal are lost or distorted, the receiver can still reconstruct the message. That’s why CSS is ideal for long-range, low-power communication in challenging environments.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

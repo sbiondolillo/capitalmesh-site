@@ -6,8 +6,69 @@
     <description>Recent content on Capital Region Mesh</description>
     <generator>Hugo -- 0.150.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.capitalmesh.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recommended Devices for Beginners</title>
+      <link>https://www.capitalmesh.net/blog/recommended-devices/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.capitalmesh.net/blog/recommended-devices/</guid>
+      <description>&lt;p&gt;Looking for a plug-and-play way to join Capital Region Mesh? These all-in-one Meshtastic-compatible devices come pre-assembled, pre-flashed, and ready for action—no soldering, flashing, or tinkering required.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;seeed-studio-sensecap-t1000-e-tracker&#34;&gt;Seeed Studio SenseCAP T1000-E Tracker&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Form factor&lt;/strong&gt;: Credit card-sized, ultra-portable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: LR1110 LoRa, nRF52840 MCU, GPS, Bluetooth 5.0, &lt;a href=&#34;https://www.iec.ch/ip-ratings&#34;&gt;IP65 weatherproof&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Battery&lt;/strong&gt;: 700mAh rechargeable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Antenna&lt;/strong&gt;: Internal, low-profile&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best for&lt;/strong&gt;: Off-grid messaging, location tracking, environmental sensing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html&#34;&gt;View on Seeed Studio →&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;lilygo-t-echo&#34;&gt;LilyGo T-Echo&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Form factor&lt;/strong&gt;: Compact handheld with E-Ink display&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: SX1262 LoRa, nRF52840, GPS (L76K), optional BME280 sensor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Battery&lt;/strong&gt;: 850mAh rechargeable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display&lt;/strong&gt;: 1.54&amp;quot; E-Ink with optional backlight&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Antenna&lt;/strong&gt;: External, replaceable (SMA connector)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best for&lt;/strong&gt;: Portable nodes, field use, visual feedback&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lilygo.cc/products/t-echo-meshtastic-us&#34;&gt;View on LilyGo →&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;rak-wismesh-tag&#34;&gt;RAK WisMesh Tag&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Form factor&lt;/strong&gt;: Slim, rugged, no display&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: SX1262 LoRa, nRF52840, GPS (AT6558R), accelerometer, &lt;a href=&#34;https://www.iec.ch/ip-ratings&#34;&gt;IP66 weatherproof&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Battery&lt;/strong&gt;: 1000mAh rechargeable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Antenna&lt;/strong&gt;: Internal, sealed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best for&lt;/strong&gt;: Discreet tracking, outdoor deployments, long battery life&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.rakwireless.com/product-categories/meshtastic/wismesh-tag/&#34;&gt;View on RAKwireless →&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;rak-wismesh-pocket-v2&#34;&gt;RAK WisMesh Pocket V2&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Form factor&lt;/strong&gt;: Compact enclosure with OLED display&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: SX1262 LoRa, nRF52840, GPS, USB-C, solar-ready&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Battery&lt;/strong&gt;: 3200mAh rechargeable&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Antenna&lt;/strong&gt;: External, replaceable (SMA connector)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best for&lt;/strong&gt;: Fixed installations, solar-powered nodes, long-term deployments&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.rakwireless.com/product-categories/meshtastic/wismesh-pocket-v2/overview/&#34;&gt;View on RAKwireless →&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;muziworks-r1-neo-preorder&#34;&gt;Muziworks R1 Neo &lt;em&gt;(Preorder)&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Form factor&lt;/strong&gt;: Rugged, pocket-sized enclosure with aircraft-grade aluminum base and carbon fiber PETG shell&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: Custom PCB with SX1262 LoRa, nRF52840, GPS/BDS GNSS, BLE, USB-C, onboard RTC, buzzer, soft-touch button, &lt;a href=&#34;https://www.iec.ch/ip-ratings&#34;&gt;IP68 rated&lt;/a&gt; USB-C port&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Battery&lt;/strong&gt;: 1500mAh protected LiPo (up to 3 days with GPS enabled)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Antenna&lt;/strong&gt;: External whip (915MHz or 868MHz), internal BLE antenna, custom SMA with O-ring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best for&lt;/strong&gt;: Compact field nodes, repeaters, off-grid messaging in harsh environments&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://muzi.works/products/r1-neo-complete-meshtastic-device&#34;&gt;Preorder on Muziworks →&lt;/a&gt; &lt;em&gt;(Shipping late October 2025)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-choosing-the-right-node&#34;&gt;🔍 Choosing the Right Node&lt;/h2&gt;
+&lt;p&gt;When selecting a device, consider:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why Now?</title>
       <link>https://www.capitalmesh.net/blog/why-now/</link>
@@ -52,7 +113,7 @@ What better place than here, what better time than now?&lt;br&gt;
 &lt;h3 id=&#34;1-set-up-your-node&#34;&gt;1️⃣ Set Up Your Node&lt;/h3&gt;
 &lt;p&gt;Join the mesh with a Meshtastic-compatible LoRa device. This guide assumes you&amp;rsquo;re using the Meshtastic mobile app with a node that comes pre-flashed. For custom setups or flashing instructions, visit the official &lt;a href=&#34;https://meshtastic.org/docs/getting-started/&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;🛒 Get a node: any compatible device works—&lt;a href=&#34;https://your-site.com/blog/tags/devices&#34;&gt;recommended models&lt;/a&gt; make setup easier &lt;em&gt;(coming soon)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;🛒 Get a node: any compatible device works—&lt;a href=&#34;https://www.capitalmesh.net/blog/recommended-devices&#34;&gt;recommended models&lt;/a&gt; make setup easier&lt;/li&gt;
 &lt;li&gt;📱 Install the Meshtastic app on your phone:&lt;br&gt;
 &lt;svg aria-hidden=&#34;true&#34; class=&#34;bi bi-apple hi-svg-inline&#34; fill=&#34;currentColor&#34; height=&#34;1em&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;1em&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
     &lt;path d=&#34;M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282&#34;/&gt;
