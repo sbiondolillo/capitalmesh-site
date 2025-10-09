@@ -13,7 +13,7 @@ Join the mesh with a Meshtastic-compatible LoRa device. This guide assumes you'r
 
 - 🛒 Get a node: any compatible device works—[recommended models](/blog/recommended-devices) make setup easier
 - 📱 Install the Meshtastic app on your phone:  
-  {{< ico bootstrap apple >}} [Apple App Store](https://apps.apple.com/app/meshtastic/id6477066333)  
+  {{< ico bootstrap apple >}} [Apple App Store](https://apps.apple.com/us/app/meshtastic/id1586432531)   
   {{< ico bootstrap google-play >}} [Google Play Store](https://play.google.com/store/apps/details?id=com.geeksville.mesh&hl=en-US) 
 - 🔗 Pair your node to your phone: that’s it—you’re ready to send your first message
 
