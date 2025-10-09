@@ -5,7 +5,7 @@ title: "How Do I Join?"
 Want to help build a stronger, more connected Capital Region?
 
 
-## 🧭 Getting Started Is Easy
+## Getting Started Is Easy
 
 ### 1️⃣ Set Up Your Node
 
@@ -14,7 +14,7 @@ Join the mesh with a Meshtastic-compatible LoRa device. This guide assumes you'r
 - 🛒 Get a node: any compatible device works—[recommended models](/blog/recommended-devices) make setup easier
 - 📱 Install the Meshtastic app on your phone:  
   {{< ico bootstrap apple >}} [Apple App Store](https://apps.apple.com/app/meshtastic/id6477066333)  
-  {{< ico bootstrap google-play >}} [Google Play Store](https://play.google.com/store/apps/details?id=org.meshtastic.meshtastic) 
+  {{< ico bootstrap google-play >}} [Google Play Store](https://play.google.com/store/apps/details?id=com.geeksville.mesh&hl=en-US) 
 - 🔗 Pair your node to your phone: that’s it—you’re ready to send your first message
 
 ### 2️⃣ Join Our Channel
