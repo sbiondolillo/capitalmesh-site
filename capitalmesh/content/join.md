@@ -13,21 +13,59 @@ Join the mesh with a Meshtastic-compatible LoRa device. This guide assumes you'r
 
 - 🛒 Get a node: any compatible device works—[recommended models](/blog/recommended-devices) make setup easier
 - 📱 Install the Meshtastic app on your phone:  
-  {{< ico bootstrap apple >}} [Apple App Store](https://apps.apple.com/us/app/meshtastic/id1586432531)   
-  {{< ico bootstrap google-play >}} [Google Play Store](https://play.google.com/store/apps/details?id=com.geeksville.mesh&hl=en-US) 
-- 🔗 Pair your node to your phone: that’s it—you’re ready to send your first message
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; margin-bottom: 1rem;">
 
-### 2️⃣ Join Our Channel
+  <a href="https://apps.apple.com/us/app/meshtastic/id1586432531" target="_blank" rel="noopener" style="flex: 1 1 200px; text-decoration: none; border: 1px solid #ccc; border-radius: 8px; padding: 1rem; display: flex; align-items: center; gap: 1rem;">
+    {{< ico bootstrap apple >}}
+    <div>
+      <strong>Download on the App Store</strong><br>
+      iOS (iPhone, iPad)
+    </div>
+  </a>
 
-Connect with others in the Capital Region using our shared Meshtastic channel:
+  <a href="https://play.google.com/store/apps/details?id=com.geeksville.mesh&hl=en-US" target="_blank" rel="noopener" style="flex: 1 1 200px; text-decoration: none; border: 1px solid #ccc; border-radius: 8px; padding: 1rem; display: flex; align-items: center; gap: 1rem;">
+    {{< ico bootstrap google-play >}}
+    <div>
+      <strong>Get it on Google Play</strong><br>
+      Android phones and tablets
+    </div>
+  </a>
 
-- **Channel Name**: `CapitalMesh`
-- **Encryption**: AES128 with branded PSK
-- **QR Code**: Scan below or [click to open in Meshtastic](https://meshtastic.org/e/?add=true#CiESEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoOgAKAxIBARIMCAE4AUADSAFQHmgB)
+</div>
+
+- 🔗 Pair your node to your phone: follow the manufacturer's pairing instructions and that’s it—you’re ready to send your first message
+
+### 2️⃣ Add Channels
+
+To participate in Capital Region Mesh, we recommend a dual-channel setup that balances local coordination with broader interoperability.
 
 {{< qr text="https://meshtastic.org/e/?add=true#CiESEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoOgAKAxIBARIMCAE4AUADSAFQHmgB" />}}
 
-This channel is open for community coordination, testing, and mesh-powered resilience. Messages are encrypted using a shared key aligned with our local branding.
+Scan the QR code above or [click to open in Meshtastic](https://meshtastic.org/e/?add=true#CiESEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoOgAKAxIBARIMCAE4AUADSAFQHmgB) to add both channels automatically!
+
+---
+
+#### 🔐 Channel 0 – `CapitalMesh` *(Primary)*
+
+Our main coordination channel for local mesh activity. Messages are encrypted using a shared key unique to this channel.
+
+- Prioritizes local traffic: text, telemetry, and location updates  
+- Enables secure communication and community resilience  
+- Ideal for coordination, testing, and knowledge sharing
+
+---
+
+#### 🌐 Channel 1 – `LongFast` *(Secondary)*
+
+The default public channel used by Meshtastic devices worldwide. Messages are unencrypted and visible to all.
+
+- Allows passive listening and long-range relaying  
+- Maintains interoperability with other public nodes  
+- Useful when traveling or operating in other regions with active mesh networks
+
+---
+
+This setup offers a simple, secure way to join the mesh and start contributing. For infrastructure nodes, kit builds, and long-term outdoor deployments, stay tuned for a future post.
 
 ### 3️⃣ Next Steps
 
@@ -42,7 +80,6 @@ Once you're connected, you can:
 ## ⏰ Coming Soon
 
 - Step-by-step setup guides  
-- Local channel info and etiquette  
 - Collaboration tools and contribution pathways
 
 ## 📬 Stay in the Loop
