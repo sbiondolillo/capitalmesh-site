@@ -23,9 +23,9 @@ Connect with others in the Capital Region using our shared Meshtastic channel:
 
 - **Channel Name**: `CapitalMesh`
 - **Encryption**: AES128 with branded PSK
-- **QR Code**: Scan below or [click to open in Meshtastic](https://meshtastic.org/e/?add=true#Ch8SEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoEgwIATgBQAVIAVAeaAE)
+- **QR Code**: Scan below or [click to open in Meshtastic](https://meshtastic.org/e/?add=true#CiESEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoOgAKAxIBARIMCAE4AUADSAFQHmgB)
 
-{{< qr text="https://meshtastic.org/e/?add=true#Ch8SEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoEgwIATgBQAVIAVAeaAE" />}}
+{{< qr text="https://meshtastic.org/e/?add=true#CiESEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoOgAKAxIBARIMCAE4AUADSAFQHmgB" />}}
 
 This channel is open for community coordination, testing, and mesh-powered resilience. Messages are encrypted using a shared key aligned with our local branding.
 
