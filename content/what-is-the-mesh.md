@@ -62,8 +62,6 @@ Meshtastic doesn’t replace LoRa — it builds on it, adding routing, encryptio
 
 ---
 
-## 🚀 Ready to Join the Mesh?
+## 🚀 Ready to Dive In?
 
-If the idea of resilient, community-powered communication resonates with you, we’d love to have you onboard.
-
-Visit our [**Join page**](../join/) to get started — whether you're setting up your first device, exploring coverage, or just curious about how it all works.
+Here’s your first step: [**Join the Mesh**](../join/) to help build a resilient, community-powered network. Every node strengthens the signal. Every participant expands the reach.
