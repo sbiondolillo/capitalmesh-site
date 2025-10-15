@@ -45,7 +45,7 @@ Looking for a plug-and-play way to join Capital Region Mesh? These all-in-one Me
 ### RAK WisMesh Pocket V2
 
 - **Form factor**: Compact enclosure with OLED display  
-- **Features**: SX1262 LoRa, nRF52840, GPS, USB-C, solar-ready  
+- **Features**: SX1262 LoRa, nRF52840, USB-C, solar-ready (⚠️ no GPS module)  
 - **Battery**: 3200mAh rechargeable  
 - **Antenna**: External, replaceable (SMA connector)  
 - **Best for**: Fixed installations, solar-powered nodes, long-term deployments  
