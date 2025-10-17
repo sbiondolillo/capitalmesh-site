@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Open-Xchange//8.41.68//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20250410T142247Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20251017T222028Z
+CATEGORIES:Meeting
+CLASS:PUBLIC
+CREATED:20251017T185004Z
+DESCRIPTION:Join us for the inaugural gathering of the Capital Region Mesh — a night of shared vision, practical planning, and community-scale coordination. We’ll explore the project’s foundations, then begin shaping the path forward — together.\n\nSpace is limited — please RSVP to reserve your spot.\n\nWe’ll meet in the Library at the Unitarian Universalist Church, 274 Pleasant Street, Concord (https://maps.app.goo.gl/1dg2gf1RueUyXagJ7). Enter through the East entrance; someone will be there to guide you.\n\nAgenda:\n• 6:30–7:00 — Arrivals and Introductions\n• 7:00–7:30 — Onboarding Presentation\n• 7:30–8:00 — Onboarding Q&A\n• 8:00–9:00 — Planning Session\n\nThe Onboarding Presentation introduces the basics of radio technology and explores how Meshtastic supports community-scale communication. We'll also review the current status of the local mesh and its role within the broader New Hampshire ecosystem.\n\nThe Planning Session will focus on how we can begin connecting communities to the mesh. This effort is larger than any one person, and participants are invited to bring ideas for effective, actionable steps.\n\nIf you're interested in taking a leadership role, we encourage you to attend with concrete proposals. The success of this project depends on diverse tactics and distributed sovereignty — speak up, advocate for your vision, and help shape the path forward.\n\nIf one person could do this alone, we wouldn’t need this meeting.
+DTSTART;TZID=America/New_York:20251029T183000
+DTEND;TZID=America/New_York:20251029T210000
+LOCATION:Library @ UU Church Concord
+SUMMARY:Capital Region Mesh Kick-Off
+UID:1a2c4bb9-4cbd-4d94-8a1b-f86edc1fc4b8
+SEQUENCE:0
+PRIORITY:0
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+ORGANIZER;CN=Sam from Capital Region Mesh:mailto:info@capitalmesh.net
+END:VEVENT
+END:VCALENDAR

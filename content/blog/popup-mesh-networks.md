@@ -1,7 +1,6 @@
 ---
 title: "Pop-Up Mesh Networks with Personal Trackers"
 date: 2025-10-14
-draft: false
 tags: ["devices", "community", "use cases", "privacy"]
 description: "Explore how personal tracker units enable portable mesh deployments at concerts, protests, campsites, and conventions — with practical topologies and setup tips."
 ---
