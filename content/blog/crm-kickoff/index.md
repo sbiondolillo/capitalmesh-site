@@ -53,7 +53,7 @@ Want to stay organized? Add the event to your calendar:
     width="480"
 >}}
 
-Space is limited — please RSVP to reserve your spot.  
+Space is limited — please RSVP by emailing [events@capitalmesh.net](mailto:events@capitalmesh.net).   
 Enter through the **East entrance**; someone will be there to guide you.
 
 ---
