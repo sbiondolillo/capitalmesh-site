@@ -37,11 +37,30 @@ Join the mesh with a Meshtastic-compatible LoRa device. This guide assumes you'r
 
 ### 2️⃣ Add Channels
 
-To participate in Capital Region Mesh, we recommend a dual-channel setup that balances local coordination with broader interoperability.
+To participate in Capital Region Mesh, we recommend a dual-channel setup that balances local coordination with broader interoperability.  
 
 {{< qr text="https://meshtastic.org/e/?add=true#CiESEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoOgAKAxIBARIMCAE4AUADSAFQHmgB" />}}
 
-Scan the QR code above or [click to open in Meshtastic](https://meshtastic.org/e/?add=true#CiESEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoOgAKAxIBARIMCAE4AUADSAFQHmgB) to add both channels automatically!
+Scan the QR code above or [click to open in Meshtastic](https://meshtastic.org/e/?add=true#CiESEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoOgAKAxIBARIMCAE4AUADSAFQHmgB) to add both channels automatically!  
+
+#### {{< ico bootstrap gear-fill >}} Manual Channel Setup
+
+<details>
+<summary>Click to view manual configuration settings</summary>
+
+<div style="max-width: 300px; margin: 1em 0; padding: 1em; border-radius: 8px; border: 1px solid #ccc">
+
+**Channel Name**
+```plaintext
+CapitalMesh
+```
+
+**PSK (Pre-Shared Key)**
+```plaintext
+Y2FwaXRhbG1lc2gubmV0IQ==
+```
+</div>
+</details>
 
 ---
 
