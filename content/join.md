@@ -39,9 +39,9 @@ Join the mesh with a Meshtastic-compatible LoRa device. This guide assumes you'r
 
 To participate in Capital Region Mesh, we recommend a dual-channel setup that balances local coordination with broader interoperability.  
 
-{{< qr text="https://meshtastic.org/e/?add=true#CiESEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoOgAKAxIBARIMCAE4AUADSAFQHmgB" />}}
+{{< qr text="https://meshtastic.org/e/?add=true#CgMSAQEKIRIQY2FwaXRhbG1lc2gubmV0IRoLQ2FwaXRhbE1lc2g6ABIMCAE4AUAFSAFQHmgB" />}}
 
-Scan the QR code above or [click to open in Meshtastic](https://meshtastic.org/e/?add=true#CiESEGNhcGl0YWxtZXNoLm5ldCEaC0NhcGl0YWxNZXNoOgAKAxIBARIMCAE4AUADSAFQHmgB) to add both channels automatically!  
+Scan the QR code above or [click to open in Meshtastic](https://meshtastic.org/e/?add=true#CgMSAQEKIRIQY2FwaXRhbG1lc2gubmV0IRoLQ2FwaXRhbE1lc2g6ABIMCAE4AUAFSAFQHmgB) to add both channels automatically!  
 
 #### {{< ico bootstrap gear-fill >}} Manual Channel Setup
 
@@ -64,23 +64,23 @@ Y2FwaXRhbG1lc2gubmV0IQ==
 
 ---
 
-#### 🔐 Channel 0 – `CapitalMesh` *(Primary)*
-
-Our main coordination channel for local mesh activity. Messages are encrypted using a shared key unique to this channel.
-
-- Prioritizes local traffic: text, telemetry, and location updates  
-- Enables secure communication and community resilience  
-- Ideal for coordination, testing, and knowledge sharing
-
----
-
-#### 🌐 Channel 1 – `LongFast` *(Secondary)*
+#### 🌐 Channel 0 – `LongFast` *(Primary)*
 
 The default public channel used by Meshtastic devices worldwide. Messages are unencrypted and visible to all.
 
 - Allows passive listening and long-range relaying  
 - Maintains interoperability with other public nodes  
 - Useful when traveling or operating in other regions with active mesh networks
+
+---
+
+#### 🔐 Channel 1 - `CapitalMesh` *(Secondary)*
+
+Our main coordination channel for local mesh activity. Messages are encrypted using a shared key unique to this channel.
+
+- Prioritizes local traffic: text, telemetry, and location updates  
+- Enables secure communication and community resilience  
+- Ideal for coordination, testing, and knowledge sharing
 
 ---
 
