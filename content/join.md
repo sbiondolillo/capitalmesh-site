@@ -4,7 +4,6 @@ title: "How Do I Join?"
 
 Want to help build a stronger, more connected Capital Region?
 
-
 ## Getting Started Is Easy
 
 ### 1️⃣ Set Up Your Node
@@ -33,20 +32,52 @@ Join the mesh with a Meshtastic-compatible LoRa device. This guide assumes you'r
 
 </div>
 
-- 🔗 Pair your node to your phone: follow the manufacturer's pairing instructions and that’s it—you’re ready to send your first message
+- 🔗 Pair your node to your phone: Follow the manufacturer's pairing instructions—and just like that, you're ready to send your first message.
 
 ### 2️⃣ Add Channels
 
 To participate in Capital Region Mesh, we recommend a dual-channel setup that balances local coordination with broader interoperability.  
 
+### 🅰️ Brand New Nodes
+
+If your node is fresh out of the box or recently reset, you can use the QR code or link below to add both channels automatically.
+
+> ⚠️ **Important Note for Existing Users:**  
+> Due to a bug in the current mobile apps, using a link or QR code to "Add" channels may overwrite your existing configuration, as if you had selected "Replace." Until this is fixed in a future update, we recommend this method only for nodes still using the default channel setup.
+
 {{< qr text="https://meshtastic.org/e/?add=true#CgMSAQEKIRIQY2FwaXRhbG1lc2gubmV0IRoLQ2FwaXRhbE1lc2g6ABIMCAE4AUAFSAFQHmgB" />}}
 
-Scan the QR code above or [click to open in Meshtastic](https://meshtastic.org/e/?add=true#CgMSAQEKIRIQY2FwaXRhbG1lc2gubmV0IRoLQ2FwaXRhbE1lc2g6ABIMCAE4AUAFSAFQHmgB) to add both channels automatically!  
+[Click here to open in Meshtastic](https://meshtastic.org/e/?add=true#CgMSAQEKIRIQY2FwaXRhbG1lc2gubmV0IRoLQ2FwaXRhbE1lc2g6ABIMCAE4AUAFSAFQHmgB)
+
+#### 📡 Default Channel Configuration
+
+The QR code and link above both configure two channels on your device: one public, one encrypted. Here's how they work:
+
+#### 🌐 Channel 0 – `LongFast` *(Primary)*
+
+The default public channel used by Meshtastic devices worldwide. Messages are unencrypted and visible to all.
+
+- Enables passive listening and long-range relaying  
+- Maintains interoperability with other public nodes  
+- Useful when traveling or operating in other regions with active mesh networks
+
+---
+
+#### 🔐 Channel 1 – `CapitalMesh` *(Secondary)*
+
+Our main coordination channel for local mesh activity. Messages are encrypted using a shared key unique to this channel.
+
+- Prioritizes local traffic: text, telemetry, and location updates  
+- Enables secure communication and community resilience  
+- Ideal for coordination, testing, and knowledge sharing
+
+---
+
+### 🅱️ Nodes with Existing Channels
+
+If your node is already configured with other channels, manual setup is the safest option. It takes less than a minute and ensures your current configuration stays intact.
 
 #### {{< ico bootstrap gear-fill >}} Manual Channel Setup
-
-<details>
-<summary>Click to view manual configuration settings</summary>
 
 <div style="max-width: 300px; margin: 1em 0; padding: 1em; border-radius: 8px; border: 1px solid #ccc">
 
@@ -60,31 +91,10 @@ CapitalMesh
 Y2FwaXRhbG1lc2gubmV0IQ==
 ```
 </div>
-</details>
 
 ---
 
-#### 🌐 Channel 0 – `LongFast` *(Primary)*
-
-The default public channel used by Meshtastic devices worldwide. Messages are unencrypted and visible to all.
-
-- Allows passive listening and long-range relaying  
-- Maintains interoperability with other public nodes  
-- Useful when traveling or operating in other regions with active mesh networks
-
----
-
-#### 🔐 Channel 1 - `CapitalMesh` *(Secondary)*
-
-Our main coordination channel for local mesh activity. Messages are encrypted using a shared key unique to this channel.
-
-- Prioritizes local traffic: text, telemetry, and location updates  
-- Enables secure communication and community resilience  
-- Ideal for coordination, testing, and knowledge sharing
-
----
-
-This setup offers a simple, secure way to join the mesh and start contributing. For infrastructure nodes, kit builds, and long-term outdoor deployments, stay tuned for a future post.
+Whether automatic or manual, this setup provides a simple, secure way to join the mesh and start contributing. Keeping `LongFast` as the primary channel ensures broad compatibility and avoids potential frequency conflicts with other nodes. For infrastructure builds, outdoor deployments, and long-term kit setups, stay tuned for a future post.
 
 ### 3️⃣ Next Steps
 
@@ -103,7 +113,7 @@ Once you're connected, you can:
 
 ## 📬 Stay in the Loop
 
-Want updates, guides, and community news delivered directly?
+Want updates, guides, and community news delivered straight to your inbox?
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/capitalmesh" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/capitalmesh', 'popupwindow')">
 <fieldset style="border: none; padding: 0; margin: 0;">
