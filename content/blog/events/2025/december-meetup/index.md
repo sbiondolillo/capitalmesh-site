@@ -1,5 +1,5 @@
 ---
-title: "Capital Region Mesh — December Meetup"
+title: "December 2025 Meetup"
 date: 2025-11-06
 tags: ["configuration", "community", "planning", "events", "newsletter"]
 description: Join us for the second Capital Region Mesh meetup — focused on winter planning and regional configuration.
@@ -19,7 +19,7 @@ draft: false
 
 ## ✨ What to Expect
 
-It's another night of shared vision, practical planning, and community-scale coordination. We’ll review recent experiments, refine our regional configuration, and define tangible action items for the winter season.
+This will be another night of shared vision, practical planning, and community-scale coordination. We’ll build on ideas from [October’s Kick-Off](/blog/events/2025/kickoff-recap/), where we explored organizational structure, onboarding kits, and regional deployment strategy. This session will focus on refining configuration and identifying tangible action items for the winter season.
 
 ### Agenda
 - **7:00–7:15** — Arrivals & Introductions  
@@ -32,9 +32,9 @@ It's another night of shared vision, practical planning, and community-scale coo
 
 ## 📋 Mesh Planning Priorities
 
-We’ll walk through how to configure LoRa radios for local mesh resilience while staying connected to the broader regional/state Meshtastic network. This includes results from November’s experiments and a proposed configuration for winter deployment.
+We’ll walk through how to configure LoRa radios for local mesh resilience while maintaining links to the broader regional and statewide Meshtastic network. This includes results from November’s experiments and a proposed configuration for winter deployment.
 
-In the working session, participants will collaborate to define concrete action items for the coming month. Everyone is welcome to contribute ideas — and those ready to take on a task are encouraged to do so.
+The second half of the evening is hands-on: participants will help shape the deployment plan, suggest improvements, and take ownership of specific next steps. Whether you're bringing gear, ideas, or curiosity — your input matters.
 
 ---
 
