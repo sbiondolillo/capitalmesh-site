@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Open-Xchange//8.42.63//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20250410T142247Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20251106T012132Z
+CLASS:PUBLIC
+CREATED:20251106T005912Z
+DESCRIPTION:Another night of shared vision\, practical planning\, and community-scale coordination.\n\nJoin us for the second Capital Region Mesh meetup as we chart next steps and focus on tangible action for the winter season.\n\nLocation:\nLibrary at the Unitarian Universalist Church 274 Pleasant Street\, Concord\nGoogle Maps: https://maps.app.goo.gl/1dg2gf1RueUyXagJ7\n(Enter through the East entrance\; someone will be there to greet you.)\n\nTime:\n7:00–9:00 PM\n(Space is limited — please RSVP to events@capitalmesh.net)\n\nAgenda:\n• 7:00–7:15 — Arrivals & Introductions\n• 7:15–7:45 — Regional Configuration Presentation\n• 7:45–8:15 — Q&A\n• 8:15–8:30 — Break / Open Discussion\n• 8:30–9:00 — Working Session\n\nRegional Configuration Presentation:\nWe’ll walk through how to configure LoRa radios for local mesh resilience while staying connected to the broader regional/state Meshtastic network. This includes results from November’s experiments and a proposed configuration for winter deployment.\n\nWorking Session:\nParticipants will collaborate to define concrete action items for the coming month. All are welcome to contribute ideas — and those ready to take on a task are encouraged to do so.\n\nWhether you're returning or joining for the first time\, you're welcome to attend any portion of the evening. If you're considering a leadership role\, we invite you to bring a proposal or idea to share in the working session.\n\nLet’s keep building — together.
+DTEND;TZID=America/New_York:20251203T210000
+DTSTART;TZID=America/New_York:20251203T190000
+LAST-MODIFIED:20251106T012132Z
+LOCATION:Library @ UU Church Concord
+PRIORITY:0
+SEQUENCE:1
+SUMMARY:Capital Region Mesh December 2025 Meetup
+TRANSP:OPAQUE
+UID:7f2cfd7f-9cfa-4838-af1e-6b25fc6ed927
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+ORGANIZER;CN=Sam from Capital Region Mesh:mailto:info@capitalmesh.net
+END:VEVENT
+END:VCALENDAR

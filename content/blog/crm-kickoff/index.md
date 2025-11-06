@@ -5,6 +5,7 @@ tags: ["onboarding", "community", "events", "newsletter"]
 description: Join us for the inaugural gathering of the Capital Region Mesh.
 summary: A practical planning session for the Capital Region Mesh — onboarding, coordination, and next steps.
 draft: false
+aliases: ["/blog/events/2025/kickoff/"]
 ---
 
 # 🛰️ Charting the Path Forward – Together
@@ -46,7 +47,7 @@ Want to stay organized? Add the event to your calendar:
 ## 🧭 RSVP + Directions
 
 {{< figure 
-    src="UU-Church-Library.jpg"
+    src="/images/shared/UU-Church-Library.jpg"
     alt="The library at UU Church Concord"
     title="Our meeting space"
     caption="There are 8 seats available, with space to pull in a few more if needed."
