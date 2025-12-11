@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Open-Xchange//8.43.61//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20250410T142247Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20251211T015601Z
+CLASS:PUBLIC
+CREATED:20251106T005912Z
+DESCRIPTION:Join us for the first Capital Region Mesh meetup of 2026 as we explore alternative technologies for regional connectivity and plan the next month of development work.\n\nLocation: Kent Thomas Room at the Unitarian Universalist Church, 274 Pleasant Street, Concord. Google Maps: https://maps.app.goo.gl/1dg2gf1RueUyXagJ7 (Enter through the East entrance; someone will be there to greet you.)\n\nTime: 7:00–9:00 PM (Space is limited — please RSVP to events@capitalmesh.net)\n\nAgenda: • 7:00–7:15 — Arrivals & Introductions • 7:15–7:45 — WireGuard VPN Mesh Presentation • 7:45–8:15 — MeshCore Presentation • 8:15–8:30 — Break / Open Discussion • 8:30–9:00 — Working Session\n\nWireGuard VPN Mesh Presentation: An introduction to building a federated VPN mesh using WireGuard, including routing considerations, federation models, and how VPN links can improve communication and collaboration across the region.\n\nMeshCore Presentation: A look at MeshCore as an alternative to adapting Meshtastic for regional reliability. We’ll cover architecture, tradeoffs, and how it might fit into future experimentation.\n\nWorking Session: We’ll review December’s progress, assess early work on the bridge-node enclosure, and identify concrete action items for January. All are welcome to contribute ideas, and those ready to take on a task are encouraged to do so.\n\nWhether you're returning or joining for the first time, you’re welcome to attend any portion of the evening.
+DTEND;TZID=America/New_York:20260108T210000
+DTSTART;TZID=America/New_York:20260108T190000
+LAST-MODIFIED:20251211T015601Z
+LOCATION:Kent Thomas Room @ UU Church Concord
+PRIORITY:0
+SEQUENCE:0
+SUMMARY:Capital Region Mesh January 2026 Meetup
+TRANSP:OPAQUE
+UID:7f2cfd7f-9cfa-4838-af1e-6b25fc6ed927
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+ORGANIZER;CN=Sam from Capital Region Mesh:mailto:info@capitalmesh.net
+END:VEVENT
+END:VCALENDAR
