@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Open-Xchange//8.43.61//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20250410T142247Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20260115T020000Z
+CLASS:PUBLIC
+CREATED:20260115T020000Z
+DESCRIPTION:Join us for the February Capital Region Mesh meetup as we explore new technologies for resilient regional communication and continue our collaborative development work.\n\nLocation: Kent Thomas Room at the Unitarian Universalist Church, 274 Pleasant Street, Concord. Google Maps: https://maps.app.goo.gl/1dg2gf1RueUyXagJ7 (Enter through the East entrance; someone will be there to greet you.)\n\nTime: 7:00–9:00 PM (Space is limited — please RSVP to events@capitalmesh.net)\n\nAgenda: • 7:00–7:15 — Arrivals & Introductions • 7:15–7:45 — Design and Deployment of Solar Tree Nodes • 7:45–8:15 — Intro to PACE Plans • 8:15–8:30 — Break / Open Discussion • 8:30–9:00 — Working Session\n\nSolar Tree Nodes: A practical look at designing and deploying solar-powered field nodes for long-duration outdoor operation.\n\nPACE Plans: An introduction to Primary/Alternate/Contingency/Emergency planning as a framework for resilient communication.\n\nWorking Session: We’ll review January’s progress, assess ongoing work on the bridge-node enclosure, and identify concrete action items for February.\n\nWhether you're returning or joining for the first time, you’re welcome to attend any portion of the evening.
+DTEND;TZID=America/New_York:20260204T210000
+DTSTART;TZID=America/New_York:20260204T190000
+LAST-MODIFIED:20260115T020000Z
+LOCATION:Kent Thomas Room @ UU Church Concord
+PRIORITY:0
+SEQUENCE:0
+SUMMARY:Capital Region Mesh February 2026 Meetup
+TRANSP:OPAQUE
+UID:b8c3e4f1-2c45-4f7a-9d3a-ff26c4e9a412
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+ORGANIZER;CN=Sam from Capital Region Mesh:mailto:info@capitalmesh.net
+END:VEVENT
+END:VCALENDAR

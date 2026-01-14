@@ -67,7 +67,7 @@ Want to stay organized? Add the event to your calendar:
 ## 🧭 RSVP + Directions
 
 {{< figure 
-    src="Kent-Thomas-Room.jpg"
+    src="/images/shared/Kent-Thomas-Room.jpg"
     alt="The Kent Thomas Room at UU Church Concord"
     title="Our new meeting space"
     caption="More seating, better lighting, and a projector for presentations."
