@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Open-Xchange//8.43.61//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20250410T142247Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20260209T211300Z
+CLASS:PUBLIC
+CREATED:20260209T211300Z
+DESCRIPTION:Join us for the March Capital Region Mesh meetup as we explore the principles of mutual aid and review the LoRa working group’s first coordinated deployment proposal.\n\nLocation: Kent Thomas Room at the Unitarian Universalist Church, 274 Pleasant Street, Concord. Google Maps: https://maps.app.goo.gl/1dg2gf1RueUyXagJ7 (Enter through the East entrance; someone will be there to greet you.)\n\nTime: 7:00–9:00 PM (Space is limited — please RSVP to events@capitalmesh.net)\n\nAgenda: • 7:00–7:15 — Arrivals & Introductions • 7:15–7:45 — What Is Mutual Aid? • 7:45–8:00 — Break / Open Conversation • 8:00–8:30 — LoRa Working Group: Initial Deployment Proposal • 8:30–9:00 — Working Session\n\nMutual Aid Presentation: An introduction to mutual aid as a framework for community resilience and how it applies to decentralized communication efforts.\n\nLoRa Deployment Proposal: The LoRa Strategy Working Group will present their first draft of a coordinated regional deployment plan, including early coverage goals and opportunities for participation.\n\nWorking Session: We’ll gather feedback on the proposal, identify spring deployment priorities, and outline next steps for contributors.\n\nWhether you're returning or joining for the first time, you’re welcome to attend any portion of the evening.
+DTEND;TZID=America/New_York:20260304T210000
+DTSTART;TZID=America/New_York:20260304T190000
+LAST-MODIFIED:20260209T211300Z
+LOCATION:Kent Thomas Room @ UU Church Concord
+PRIORITY:0
+SEQUENCE:0
+SUMMARY:Capital Region Mesh March 2026 Meetup
+TRANSP:OPAQUE
+UID:crm-meetup-20260304
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+ORGANIZER;CN=Sam from Capital Region Mesh:mailto:info@capitalmesh.net
+END:VEVENT
+END:VCALENDAR
