@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Open-Xchange//8.43.61//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20250410T142247Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20260322T200000Z
+CLASS:PUBLIC
+CREATED:20260322T200000Z
+DESCRIPTION:Join us for the April Capital Region Mesh meetup featuring a hands-on Mesh Open House and a presentation on emerging LoRa 2.4 GHz voice capabilities in Meshtastic.\n\nLocation: Kent Thomas Room at the Unitarian Universalist Church, 274 Pleasant Street, Concord. Google Maps: https://maps.app.goo.gl/1dg2gf1RueUyXagJ7 (Enter through the East entrance; someone will be there to greet you.)\n\nTime: 7:00–9:00 PM (Space is limited — please RSVP to events@capitalmesh.net)\n\nAgenda: • 7:00–7:15 — Arrivals & Introductions • 7:15–8:00 — Mesh Open House • 8:00–8:10 — Break / Open Conversation • 8:10–8:40 — Experiments with LoRa Voice • 8:40–9:00 — Working Session\n\nMesh Open House: Bring a device or learn with one of ours. Volunteers will help you flash firmware, configure radios, join MeshCore rooms, and get fully onboarded.\n\nExperiments with LoRa Voice: Explore emerging digital voice capabilities over LoRa 2.4 GHz, including experimental codecs, hardware considerations, and early prototypes.\n\nWorking Session: Identify testing opportunities, volunteer roles, and next steps for spring deployments.\n\nWhether you're returning or joining for the first time, you’re welcome to attend any portion of the evening.
+DTEND;TZID=America/New_York:20260401T210000
+DTSTART;TZID=America/New_York:20260401T190000
+LAST-MODIFIED:20260322T200000Z
+LOCATION:Kent Thomas Room @ UU Church Concord
+PRIORITY:0
+SEQUENCE:0
+SUMMARY:Capital Region Mesh April 2026 Meetup
+TRANSP:OPAQUE
+UID:crm-meetup-20260401
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+ORGANIZER;CN=Sam from Capital Region Mesh:mailto:info@capitalmesh.net
+END:VEVENT
+END:VCALENDAR
