@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Open-Xchange//8.43.61//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+LAST-MODIFIED:20250410T142247Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20260408T210000Z
+CLASS:PUBLIC
+CREATED:20260408T210000Z
+DESCRIPTION:Join us for the May Capital Region Mesh meetup featuring a LoRa Working Group update\, a presentation on horizontal decision-making\, and a consensus session on CRM's proposed organizational charter.\n\nLocation: The Parlor at the Unitarian Universalist Church\, 274 Pleasant Street\, Concord. Google Maps: https://maps.app.goo.gl/1dg2gf1RueUyXagJ7 (Enter through the East entrance; the Parlor is on the right past the kitchenette.)\n\nTime: 7:00–9:30 PM (Space is limited — please RSVP to events@capitalmesh.net)\n\nAgenda: • 7:00–7:10 — Arrivals & Introductions • 7:10–7:45 — LoRa Working Group Update • 7:45–7:55 — Break • 7:55–8:30 — Mutual Aid Part 2: Getting Things Done • 8:30–8:40 — Break • 8:40–9:15 — Working Session: Proposed Charter • 9:15–9:30 — Closing Circle\n\nWhether you're returning or joining for the first time\, you’re welcome to attend any portion of the evening.
+DTEND;TZID=America/New_York:20260506T213000
+DTSTART;TZID=America/New_York:20260506T190000
+LAST-MODIFIED:20260408T210000Z
+LOCATION:The Parlor @ UU Church Concord
+PRIORITY:0
+SEQUENCE:0
+SUMMARY:Capital Region Mesh May 2026 Meetup
+TRANSP:OPAQUE
+UID:crm-meetup-20260506
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+ORGANIZER;CN=Sam from Capital Region Mesh:mailto:info@capitalmesh.net
+END:VEVENT
+END:VCALENDAR
