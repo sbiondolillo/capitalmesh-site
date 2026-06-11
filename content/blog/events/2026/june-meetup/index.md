@@ -28,7 +28,7 @@ If you missed May's session, catch up in the
 
 June marks our first full meeting using the structure outlined in CRM's proposed organizational charter: Community Assembly, Members' Council, working group breakouts, and a closing circle.
 
-We'll open with **Adam's presentation on Reticulum** — a general-purpose mesh protocol that sparked wide interest at the May meetup. Then we'll move into organizational business: a LoRa Working Group progress report, continued charter discussion, and any additional items the membership wants to bring forward.
+We'll open with **Adam's presentation on Reticulum** — a general-purpose networking stack that sparked wide interest at the May meetup. Then we'll move into organizational business: a LoRa Working Group progress report, continued charter discussion, and any additional items the membership wants to bring forward.
 
 The evening closes with an open working group breakout and social time — a chance to collaborate face-to-face with the LoRa Working Group, start sketching ideas for new working groups, or simply connect with neighbors in the mesh.
 
