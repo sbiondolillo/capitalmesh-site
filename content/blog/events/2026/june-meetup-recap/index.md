@@ -13,12 +13,12 @@ summary: "A focused evening with a lot to show for it: CRM adopted its founding 
 draft: false
 ---
 
-# 🛰️ June Recap: Reticulum, a Founding Charter, and New Working Groups
+# 🛰️ June Recap: Reticulum, a Founding Charter, and a New Working Group
 
 **📅 Wednesday, June 3, 2026**
 **📍 The Parlor @ Unitarian Universalist Church, Concord**
 
-June's meetup was a smaller, focused gathering — and a consequential one. The group adopted CRM's organizational charter, got a thorough introduction to Reticulum, and ended the evening with two new working groups taking shape.
+June's meetup was a smaller, focused gathering — and a consequential one. The group adopted CRM's organizational charter, got a thorough introduction to Reticulum, and ended the evening with a new working group taking shape.
 
 ---
 
@@ -51,17 +51,17 @@ It's a real milestone. CRM now has a formal structure, a recognized membership, 
 A few other items from the Council:
 
 - **CRM has a PO Box and a signed lease** for the space at the UU Church — both in the organization's name.
-- **Sam and Becky will be at the Epic Skill Swap** this weekend to talk about mesh radio.
-- The **LoRa Working Group** is eyeing a Wilmot → Kearsarge link as a next coverage target.
+- **Sam and Becky will be at the Epic Skill Swap** in Wilmot to present on mesh radio.
+- **Sam and Ken described their deployments in Wilmot** for testing expanded coverage north of Mt. Kearsarge (including Camp Wilmot for Epic Skill Swap).
 - **Alex proposed setting a CRM region code** inside deployed nodes for consistent identification.
-- **Ken created a CRM QR code** for nodes deployed on public land — Becky offered to laminate them. (More on why that matters in the Working Session section.)
-- **Alex volunteered to explore a Matrix server** as a replacement for the several Signal chats currently in use by the group.
+- **Ken designed a CRM label with a QR code** for nodes deployed on public land — Becky offered to laminate them. (More on why that matters in the Working Session section.)
+- **Alex volunteered to explore a Matrix server** as a replacement for several Signal chats currently in use by the group.
 
 ---
 
 ## 🛠️ Working Session: Nodes, Networks, and a New Working Group
 
-The working session picked up where the Community Assembly left off: more Reticulum. A couple of attendees got onboarded hands-on, which helped the group move from general interest to a concrete next step — **an exploratory Reticulum working group** will spin up to dig further into the technology and figure out what a CRM deployment could look like.
+The working session picked up where the presentation left off: more Reticulum. A couple of attendees got onboarded hands-on, which helped the group move from general interest to a concrete next step — **an exploratory Reticulum working group** will spin up to dig further into the technology and figure out what a CRM deployment could look like.
 
 The group also talked through node identification for infrastructure deployed on public land. An attendee shared that nodes placed on fire towers around the state — by others in the broader mesh community, not CRM specifically — have been confiscated by the NH state forestry division. In cases where nodes had identifying information attached, that contact info gave owners a path toward recovering their equipment. Ken's QR code is CRM's proactive response: a simple, durable way to identify our nodes in the field and give anyone who encounters them a way to reach us, should we ever find ourselves in a similar situation.
 
@@ -71,7 +71,7 @@ Build materials for the next generation of CRM nodes were also on the table, wit
 
 ## 🌱 Looking Ahead
 
-July's meetup will be a hands-on **node building party**. Alex is bringing the parts and pieces to build several of his **Rattlesnake nodes** — his own open-source design — with the group. Others are welcome to bring their own designs to show off. These Rattlesnake nodes will be the next wave of CRM infrastructure, custom-printed with CRM branding and destined for regional deployment.
+July's meetup will be a hands-on **node building party**. Alex is bringing the parts to build several of his **Rattlesnake nodes** — his own open-source design — with the group. Others are welcome to bring their own designs to show off. These Rattlesnake nodes will be the next wave of CRM infrastructure, custom-printed with CRM branding and destined for regional deployment.
 
 [**July 2026 Meetup →**]({{< relref "july-meetup" >}})
 
