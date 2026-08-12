@@ -5,7 +5,7 @@
  * Usage:
  *   node generate-event.js --date 2026-07-01 --title "July 2026 Meetup" \
  *     [--startTime 19:00] [--endTime 21:00] \
- *     [--locationName "The Parlor at UU Church"] \
+ *     [--locationName "Kent/Thomas Room at UU Church"] \
  *     [--locationAddress "274 Pleasant St, Concord, NH 03301"] \
  *     [--description "..."]
  *
@@ -30,7 +30,7 @@ if (!date) {
 const title = getArg('title', `Capital Region Mesh Meetup`);
 const startTime = getArg('startTime', '19:00');
 const endTime = getArg('endTime', '21:00');
-const locationName = getArg('locationName', 'The Parlor at UU Church');
+const locationName = getArg('locationName', 'Kent/Thomas Room at UU Church');
 const locationAddress = getArg('locationAddress', '274 Pleasant St, Concord, NH 03301');
 const description = getArg('description', `Join us for the ${title}.\n\nLocation: ${locationName}, ${locationAddress}\n\nRSVP: events@capitalmesh.net`);
 

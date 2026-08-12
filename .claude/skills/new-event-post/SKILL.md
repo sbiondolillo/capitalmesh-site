@@ -20,15 +20,15 @@ Tell me which workflow you need:
 - Event date — required
 - Community Assembly topic and presenter name/description — required
 - Any special Member's Council agenda items — optional
-- Venue override — default: Kent/Thomas Room at UU Church, 274 Pleasant St, Concord NH
+- Venue override — see Defaults table below
 
 **Generate calendar files:**
 
 Run `node .claude/skills/new-event-post/scripts/generate-event.js` with the event details.
 Pass `--title "Capital Region Mesh [Month] [Year] Meetup"`, `--date YYYY-MM-DD`,
 `--description` (a 1-2 sentence summary of the event), and any non-default
-`--locationName` / `--locationAddress`. Parse the JSON output for `icsFilename`,
-`icsContent`, and `googleCalUrl`.
+`--startTime` / `--endTime` / `--locationName` / `--locationAddress` (see Defaults
+table below). Parse the JSON output for `icsFilename`, `icsContent`, and `googleCalUrl`.
 
 Write `icsContent` to `static/events/<icsFilename>`.
 
