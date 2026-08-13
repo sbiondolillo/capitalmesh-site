@@ -70,7 +70,7 @@ function escapeIcs(str) {
 
 const icsContent = `BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Capital Region Mesh//new-event-post//EN
+PRODID:-//Capital Region Mesh//crm-meeting-docs//EN
 METHOD:PUBLISH
 BEGIN:VTIMEZONE
 TZID:America/New_York

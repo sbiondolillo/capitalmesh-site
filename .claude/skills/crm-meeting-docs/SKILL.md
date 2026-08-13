@@ -1,14 +1,10 @@
 ---
-name: new-event-post
-description: Creates upcoming event announcement posts, and internal Minutes plus public
-  recap posts from a combined post-meeting interview, for Capital Region Mesh monthly
-  meetups — including iCalendar (.ics) file generation and Google Calendar links. Use when
-  creating a new CRM event announcement, writing up a meeting (minutes + recap), or when
-  the user says "new event", "new recap", "meeting minutes", or "write the [month] meetup
-  post".
+name: crm-meeting-docs
+disable-model-invocation: true
+description: Generates Capital Region Mesh event announcements, meeting Minutes, and recap posts.
 ---
 
-# New Event Post
+# CRM Meeting Docs
 
 ## Quick start
 
@@ -30,7 +26,7 @@ Tell me which workflow you need:
 
 **Generate calendar files:**
 
-Run `node .claude/skills/new-event-post/scripts/generate-event.js` with the event details.
+Run `node .claude/skills/crm-meeting-docs/scripts/generate-event.js` with the event details.
 Pass `--title "Capital Region Mesh [Month] [Year] Meetup"`, `--date YYYY-MM-DD`,
 `--description` (a 1-2 sentence summary of the event), and any non-default
 `--startTime` / `--endTime` / `--locationName` / `--locationAddress` (see Defaults
@@ -68,7 +64,7 @@ recap post, and — only if the next meeting's topic is already known — a draf
 event announcement.
 
 **Before asking anything**, find and read the previous meeting's Minutes file: look in
-`.claude/skills/new-event-post/.minutes/` for the most recent `YYYY-MM-DD.md` file dated
+`.claude/skills/crm-meeting-docs/.minutes/` for the most recent `YYYY-MM-DD.md` file dated
 before this meeting. If one exists, read it and note:
 - Any action items marked open — you'll ask about each one's status below.
 - The running bookkeeping total from its "Running total" line — this is this meeting's
@@ -108,11 +104,11 @@ Assemble the answers into a JSON object matching `generate-minutes.js`'s data sh
 facilitator/noteTaker/timeKeeper, attendees, communityAssembly, membersCouncil with
 decisions/actionItems, workingSession, bookkeeping with priorRunningTotal/lineItems/
 anticipated, nextMeetingDate). Write it to
-`.claude/skills/new-event-post/.minutes/YYYY-MM-DD.data.json`, then run
-`node .claude/skills/new-event-post/scripts/generate-minutes.js --data <that file>` and
-write its stdout to `.claude/skills/new-event-post/.minutes/YYYY-MM-DD.html`.
+`.claude/skills/crm-meeting-docs/.minutes/YYYY-MM-DD.data.json`, then run
+`node .claude/skills/crm-meeting-docs/scripts/generate-minutes.js --data <that file>` and
+write its stdout to `.claude/skills/crm-meeting-docs/.minutes/YYYY-MM-DD.html`.
 
-Also write a human-readable `.claude/skills/new-event-post/.minutes/YYYY-MM-DD.md` covering
+Also write a human-readable `.claude/skills/crm-meeting-docs/.minutes/YYYY-MM-DD.md` covering
 the same content in plain markdown (header with roles/attendees, decisions, action items
 with status, bookkeeping line items and running total, next meeting date). This markdown
 file — not the `.json` — is what next month's carry-forward step reads, so keep its action
