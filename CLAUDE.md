@@ -63,3 +63,13 @@ Use [Conventional Commits](https://www.conventionalcommits.org/) for all commit 
 ## Deployment
 
 Push to `main` triggers the GitHub Actions workflow (`.github/workflows/hugo.yaml`), which builds with Hugo and deploys to GitHub Pages. The workflow also writes `CNAME` records for `capitalmesh.net` and `mumble.capitalmesh.net`.
+
+## Agent skills
+
+### Issue tracker
+
+Issues live in GitHub Issues (`sbiondolillo/capitalmesh-site`), via the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+Single-context — `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
