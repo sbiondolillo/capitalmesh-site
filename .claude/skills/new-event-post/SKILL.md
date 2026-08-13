@@ -1,9 +1,11 @@
 ---
 name: new-event-post
-description: Creates upcoming event announcement posts and recap posts for Capital Region
-  Mesh monthly meetups, including iCalendar (.ics) file generation and Google Calendar
-  links. Use when creating a new CRM event announcement, writing a meetup recap, or when
-  the user says "new event", "new recap", or "write the [month] meetup post".
+description: Creates upcoming event announcement posts, and internal Minutes plus public
+  recap posts from a combined post-meeting interview, for Capital Region Mesh monthly
+  meetups — including iCalendar (.ics) file generation and Google Calendar links. Use when
+  creating a new CRM event announcement, writing up a meeting (minutes + recap), or when
+  the user says "new event", "new recap", "meeting minutes", or "write the [month] meetup
+  post".
 ---
 
 # New Event Post
@@ -11,8 +13,12 @@ description: Creates upcoming event announcement posts and recap posts for Capit
 ## Quick start
 
 Tell me which workflow you need:
-- **"new event"** — upcoming event announcement (needs: date + Community Assembly topic)
-- **"new recap"** — post-meeting recap (needs: notes from the meeting)
+- **"new event"** — upcoming event announcement, on its own (needs: date + Community
+  Assembly topic)
+- **"new recap"** / **"meeting minutes"** / **"post-meeting"** — the combined post-meeting
+  interview, which produces the internal Minutes, the public recap post, and (if the next
+  Community Assembly topic is already decided) a draft of the next event announcement, all
+  from one interview
 
 ## Workflow: new-event
 
@@ -54,21 +60,69 @@ Write `icsContent` to `static/events/<icsFilename>`.
 
 Reference `content/blog/events/2026/june-meetup/index.md` for tone and structure.
 
-## Workflow: new-recap
+## Workflow: post-meeting (Minutes + recap + next event)
 
-Interview the user one question at a time — don't ask multiple questions in one message:
+One combined interview covers everything from a meeting that just happened. It produces up
+to three artifacts: the internal Minutes (a PDF-ready HTML file, never published), the public
+recap post, and — only if the next meeting's topic is already known — a draft of the next
+event announcement.
 
-1. What month/year is this recap for? (to confirm the post path)
-2. How many people attended?
-3. What was the Community Assembly topic and who presented? What were the key points or
-   moments that stood out?
-4. What came up in the Member's Council? Any decisions, proposals, or working group reports?
-5. Did the Working Session happen? What was worked on or discussed?
-6. Any notable quotes, highlights, or memorable moments from the evening?
-7. What's coming up next? Any link to the next event post?
+**Before asking anything**, find and read the previous meeting's Minutes file: look in
+`.claude/skills/new-event-post/.minutes/` for the most recent `YYYY-MM-DD.md` file dated
+before this meeting. If one exists, read it and note:
+- Any action items marked open — you'll ask about each one's status below.
+- The running bookkeeping total from its "Running total" line — this is this meeting's
+  starting `priorRunningTotal`.
 
-After all questions are answered, synthesize into a recap post at
-`content/blog/events/YYYY/[month-slug]-meetup-recap/index.md`:
+If no prior file exists (first-ever run), treat both as empty — no carried-forward action
+items, `priorRunningTotal` of 0. Don't ask the user to supply either; read them yourself.
+
+**Interview the user one question at a time** — don't ask multiple questions in one message
+— in the order the meeting actually happened:
+
+1. What month/year and date is this for? (confirms file paths)
+2. Who served as Facilitator, Note-Taker, and Time-Keeper this meeting?
+3. Who attended? (names, for the Minutes attendee list)
+4. Community Assembly — what was the topic, who presented, and what were the key points or
+   moments that stood out? (feeds both the Minutes summary and the recap narrative)
+5. Member's Council — what decisions were made, and what proposals or working group reports
+   came up? For each decision with a follow-up, who owns it and what's the task?
+6. For each action item carried forward from last meeting (if any): is it done, or still
+   open?
+7. Working Session — did it happen, and what was worked on or discussed?
+8. Bookkeeping — any expenses since last meeting? For each: date, description, amount,
+   category, and whether it was pre-approved via a proposal or is being presented for
+   ratification now. Any contributions received?
+9. Any anticipated expenses to flag? For each, is it tied to an already-passed proposal
+   (get the proposal's title) or just an informal heads-up with no proposal yet?
+10. Any notable quotes, highlights, or memorable moments from the evening? (recap only)
+11. What's the next meeting's date?
+12. Is next month's Community Assembly topic and presenter already decided? If yes, collect
+    what's needed to draft the announcement (see Workflow: new-event's inputs above); if
+    no, skip announcement generation for this session — the standalone `new-event` workflow
+    remains available once it's decided.
+
+**Generate the Minutes:**
+
+Assemble the answers into a JSON object matching `generate-minutes.js`'s data shape (date,
+facilitator/noteTaker/timeKeeper, attendees, communityAssembly, membersCouncil with
+decisions/actionItems, workingSession, bookkeeping with priorRunningTotal/lineItems/
+anticipated, nextMeetingDate). Write it to
+`.claude/skills/new-event-post/.minutes/YYYY-MM-DD.data.json`, then run
+`node .claude/skills/new-event-post/scripts/generate-minutes.js --data <that file>` and
+write its stdout to `.claude/skills/new-event-post/.minutes/YYYY-MM-DD.html`.
+
+Also write a human-readable `.claude/skills/new-event-post/.minutes/YYYY-MM-DD.md` covering
+the same content in plain markdown (header with roles/attendees, decisions, action items
+with status, bookkeeping line items and running total, next meeting date). This markdown
+file — not the `.json` — is what next month's carry-forward step reads, so keep its action
+items and running total legible as plain text.
+
+Tell the user the HTML file's path and that opening it in a browser and using Print → Save
+as PDF produces the document to email — the tool does not send it.
+
+**Generate the recap post** at `content/blog/events/YYYY/[month-slug]-meetup-recap/index.md`
+from the same answers:
 
 - TOML frontmatter: `title "[Month] YYYY Meetup Recap"`, `date` (today),
   `tags`, `description`, `summary`, `draft = false`
@@ -78,7 +132,11 @@ After all questions are answered, synthesize into a recap post at
 - Newsletter signup HTML form — copy verbatim from any existing recap post
   (e.g. `content/blog/events/2026/may-meetup-recap/index.md`)
 
-Reference existing recaps for tone: warm, narrative, community-first.
+Reference existing recaps for tone: warm, narrative, community-first. The recap never
+includes Bookkeeping or action-item detail — that stays in the Minutes.
+
+**If next month's topic was decided** (question 12), follow Workflow: new-event's "Generate
+calendar files" and "Create the post" steps using the collected details.
 
 ## Defaults
 
