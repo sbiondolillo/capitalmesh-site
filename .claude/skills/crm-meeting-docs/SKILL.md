@@ -134,6 +134,11 @@ includes Bookkeeping or action-item detail — that stays in the Minutes.
 **If next month's topic was decided** (question 12), follow Workflow: new-event's "Generate
 calendar files" and "Create the post" steps using the collected details.
 
+**Do not commit or push anything.** Once the files are written, tell the user what changed
+and suggest they run `hugo server` to preview the recap (and next-event post, if generated)
+locally before deciding to commit. These are public-facing posts and an internal governance
+record — they should get a visual review, not go straight to git.
+
 ## Defaults
 
 | Field            | Default                                        |
