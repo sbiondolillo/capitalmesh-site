@@ -29,7 +29,7 @@ if (!date) {
 
 const title = getArg('title', `Capital Region Mesh Meetup`);
 const startTime = getArg('startTime', '19:00');
-const endTime = getArg('endTime', '21:00');
+const endTime = getArg('endTime', '22:00');
 const locationName = getArg('locationName', 'Kent/Thomas Room at UU Church');
 const locationAddress = getArg('locationAddress', '274 Pleasant St, Concord, NH 03301');
 const description = getArg('description', `Join us for the ${title}.\n\nLocation: ${locationName}, ${locationAddress}\n\nRSVP: events@capitalmesh.net`);
