@@ -13,7 +13,7 @@ draft: false
 
 # 🤖 October Meetup: Running Local LLMs
 
-**📅 Wednesday, October 7, 2026**  
+**📅 Monday, October 12, 2026** *(rescheduled from Wednesday, October 7)*  
 **🕖 7:00–10:00 PM**  
 **📍 Kent/Thomas Room @ Unitarian Universalist Church**  
 274 Pleasant Street, Concord, NH  
@@ -92,7 +92,7 @@ Enter through the **East entrance**; we're in the first room on the right.
 ## 📅 Add to Your Calendar
 
 - [**Download .ics file**](/events/crm-october-2026-meetup.ics)
-- [**Add to Google Calendar**](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Capital%20Region%20Mesh%20October%202026%20Meetup&dates=20261007T230000Z/20261008T020000Z&details=October's%20Community%20Assembly%20is%20Running%20Local%20LLMs%2C%20a%20presentation%20from%20Alex%20on%20getting%20your%20own%20private%20AI%20setup%20running%20on%20hardware%20you%20control.%20Plus%20the%20usual%20Members'%20Council%20and%20working%20group%20time.&location=Kent%2FThomas%20Room%20at%20UU%20Church%2C%20274%20Pleasant%20St%2C%20Concord%2C%20NH%2003301)
+- [**Add to Google Calendar**](https://calendar.google.com/calendar/render?action=TEMPLATE&text=Capital%20Region%20Mesh%20October%202026%20Meetup&dates=20261012T230000Z/20261013T020000Z&details=October's%20Community%20Assembly%20is%20Running%20Local%20LLMs%2C%20a%20presentation%20from%20Alex%20on%20getting%20your%20own%20private%20AI%20setup%20running%20on%20hardware%20you%20control.%20Plus%20the%20usual%20Members'%20Council%20and%20working%20group%20time.&location=Kent%2FThomas%20Room%20at%20UU%20Church%2C%20274%20Pleasant%20St%2C%20Concord%2C%20NH%2003301)
 
 ---
 
